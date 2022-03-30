@@ -1,9 +1,7 @@
 name: Linters
-
 on: [push]
-
 jobs:
-  lint:
+  Lint:
     runs-on: ubuntu-latest
     steps:
       - name: black
